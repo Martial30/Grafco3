@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Program Files/Grafco3/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.117" />
+        <entry key="..\:/Program Files/Grafco3/app/src/main/res/drawable/arieneplans.xml" value="0.132" />
+        <entry key="..\:/Program Files/Grafco3/app/src/main/res/drawable/delete.xml" value="0.109" />
+        <entry key="..\:/Program Files/Grafco3/app/src/main/res/drawable/ic_baseline_ads_click_24.xml" value="0.1" />
+        <entry key="..\:/Program Files/Grafco3/app/src/main/res/drawable/ic_baseline_clear_24.xml" value="0.1" />
+        <entry key="..\:/Program Files/Grafco3/app/src/main/res/drawable/ic_baseline_menu_24.xml" value="0.1" />
+        <entry key="..\:/Program Files/Grafco3/app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.1" />
+        <entry key="..\:/Program Files/Grafco3/app/src/main/res/drawable/ic_collection.xml" value="0.1" />
+        <entry key="..\:/Program Files/Grafco3/app/src/main/res/drawable/ic_facture_impayee.xml" value="0.1" />
+        <entry key="..\:/Program Files/Grafco3/app/src/main/res/drawable/ic_facture_payee.xml" value="0.1" />
+        <entry key="..\:/Program Files/Grafco3/app/src/main/res/drawable/ic_faire_rapport.xml" value="0.1" />
+        <entry key="..\:/Program Files/Grafco3/app/src/main/res/drawable/ic_launcher_background.xml" value="0.117" />
+        <entry key="..\:/Program Files/Grafco3/app/src/main/res/drawable/ic_notification.xml" value="0.1" />
+        <entry key="..\:/Program Files/Grafco3/app/src/main/res/drawable/ic_person.xml" value="0.117" />
+        <entry key="..\:/Program Files/Grafco3/app/src/main/res/drawable/ic_rapport.xml" value="0.1" />
+        <entry key="..\:/Program Files/Grafco3/app/src/main/res/drawable/ic_voir_rapport.xml" value="0.117" />
+        <entry key="..\:/Program Files/Grafco3/app/src/main/res/drawable/ic_wave.xml" value="0.1" />
+        <entry key="..\:/Program Files/Grafco3/app/src/main/res/layout/activity_accueil.xml" value="0.25" />
+        <entry key="..\:/Program Files/Grafco3/app/src/main/res/layout/activity_affiche_image.xml" value="0.25" />
+        <entry key="..\:/Program Files/Grafco3/app/src/main/res/layout/activity_connexion.xml" value="0.22" />
+        <entry key="..\:/Program Files/Grafco3/app/src/main/res/layout/activity_error_page.xml" value="0.15833333333333333" />
+        <entry key="..\:/Program Files/Grafco3/app/src/main/res/layout/activity_inscription.xml" value="0.25" />
+        <entry key="..\:/Program Files/Grafco3/app/src/main/res/layout/activity_list_client_commercial.xml" value="0.15833333333333333" />
+        <entry key="..\:/Program Files/Grafco3/app/src/main/res/layout/activity_liste_facture_im.xml" value="0.15833333333333333" />
+        <entry key="..\:/Program Files/Grafco3/app/src/main/res/layout/activity_liste_facture_p.xml" value="0.15833333333333333" />
+        <entry key="..\:/Program Files/Grafco3/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Program Files/Grafco3/app/src/main/res/layout/activity_menu_principale.xml" value="0.15833333333333333" />
+        <entry key="..\:/Program Files/Grafco3/app/src/main/res/layout/activity_modif_rapport.xml" value="0.25" />
+        <entry key="..\:/Program Files/Grafco3/app/src/main/res/layout/activity_success_page.xml" value="0.14010416666666667" />
+        <entry key="..\:/Program Files/Grafco3/app/src/main/res/layout/activity_test.xml" value="0.15833333333333333" />
+        <entry key="..\:/Program Files/Grafco3/app/src/main/res/layout/ecrire_rapport.xml" value="0.15833333333333333" />
+        <entry key="..\:/Program Files/Grafco3/app/src/main/res/layout/fragment_accueils.xml" value="0.1" />
+        <entry key="..\:/Program Files/Grafco3/app/src/main/res/layout/fragment_collection.xml" value="0.15833333333333333" />
+        <entry key="..\:/Program Files/Grafco3/app/src/main/res/layout/fragment_ecrire_rapport.xml" value="0.22" />
+        <entry key="..\:/Program Files/Grafco3/app/src/main/res/layout/fragment_facture__imapyee.xml" value="0.15833333333333333" />
+        <entry key="..\:/Program Files/Grafco3/app/src/main/res/layout/fragment_facture_im_payee.xml" value="0.20833333333333334" />
+        <entry key="..\:/Program Files/Grafco3/app/src/main/res/layout/fragment_facture_payee.xml" value="0.15" />
+        <entry key="..\:/Program Files/Grafco3/app/src/main/res/layout/fragment_gestion_commercial.xml" value="0.25" />
+        <entry key="..\:/Program Files/Grafco3/app/src/main/res/layout/fragment_liste_client_commercials.xml" value="0.15833333333333333" />
+        <entry key="..\:/Program Files/Grafco3/app/src/main/res/layout/fragment_notification.xml" value="0.25" />
+        <entry key="..\:/Program Files/Grafco3/app/src/main/res/layout/fragment_profile.xml" value="0.25" />
+        <entry key="..\:/Program Files/Grafco3/app/src/main/res/layout/fragment_r_t_i.xml" value="0.15833333333333333" />
+        <entry key="..\:/Program Files/Grafco3/app/src/main/res/layout/fragment_rapport.xml" value="0.15833333333333333" />
+        <entry key="..\:/Program Files/Grafco3/app/src/main/res/layout/fragment_test_deux.xml" value="0.14114583333333333" />
+        <entry key="..\:/Program Files/Grafco3/app/src/main/res/layout/fragment_test_un.xml" value="0.15833333333333333" />
+        <entry key="..\:/Program Files/Grafco3/app/src/main/res/layout/fragment_vocal_rapport.xml" value="0.25" />
+        <entry key="..\:/Program Files/Grafco3/app/src/main/res/layout/fragment_voir_rapport.xml" value="0.33" />
+        <entry key="..\:/Program Files/Grafco3/app/src/main/res/layout/fragment_voir_vocal_rapport.xml" value="0.15833333333333333" />
+        <entry key="..\:/Program Files/Grafco3/app/src/main/res/layout/item.xml" value="0.15729166666666666" />
+        <entry key="..\:/Program Files/Grafco3/app/src/main/res/layout/layout_card.xml" value="0.33" />
+        <entry key="..\:/Program Files/Grafco3/app/src/main/res/layout/layout_navigation_header.xml" value="0.22" />
+        <entry key="..\:/Program Files/Grafco3/app/src/main/res/layout/listedesrapport.xml" value="0.2" />
+        <entry key="..\:/Program Files/Grafco3/app/src/main/res/layout/lyt_facture_payee.xml" value="0.15833333333333333" />
+        <entry key="..\:/Program Files/Grafco3/app/src/main/res/layout/sgllisteclientcommercial.xml" value="0.25" />
+        <entry key="..\:/Program Files/Grafco3/app/src/main/res/layout/singleview.xml" value="0.2" />
+        <entry key="..\:/Program Files/Grafco3/app/src/main/res/layout/singleview2.xml" value="0.15833333333333333" />
+        <entry key="..\:/Program Files/Grafco3/app/src/main/res/layout/snackbar.xml" value="0.25" />
+        <entry key="..\:/Program Files/Grafco3/app/src/main/res/menu/navigation_menu.xml" value="0.25" />
+        <entry key="..\:/Program Files/Grafco3/app/src/main/res/menu/pageutilisateur.xml" value="0.15833333333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="jpab" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.33" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

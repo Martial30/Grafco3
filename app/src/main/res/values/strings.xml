@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Grafco3</string>
+    <string name="profile">Profile</string>
+    <string name="notification">Notification</string>
+    <string name="rapport">Rapport</string>
+    <string name="collection">Collection</string>
+    <string name="martial_koffi">Martial Koffi</string>
+    <string name="connect">Connecté</string>
+    <string name="yao_martial">Yao Martial</string>
+    <string name="ferdinand_kouame">Ferdinand Kouamé</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="rapports">Rapport</string>
+    <string name="page_de_connexion">Page de connexion</string>
+    <string name="koffimmartioux_gmail_com">koffimmartioux@gmail.com</string>
+    <string name="se_d_connecter">Se Déconnecter</string>
+    <string name="logins">Logins</string>
+    <string name="gestion_commercial">Gestion Commercial</string>
+    <string name="accueil">Accueil</string>
+    <string name="ecriture_auditoire">Ecriture auditoire</string>
+    <string name="date_facture">Date Facture</string>
+    <string name="date_ch_ance">Date échéance</string>
+    <string name="rapport_martial">
+        Bonjour
+    </string>
+    <string name="le_15_12_2022_09_50">Le 15/12/2022 à 09:50</string>
+    <string-array name="string_array">
+        <item>Martial</item>
+        <item>Achim</item>
+        <item>Kintus</item>
+        <item>David</item>
+
+    </string-array>
+
+</resources>

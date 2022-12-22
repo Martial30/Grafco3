@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".ecrire_rapport"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:id="@+id/fermer">
+
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginStart="8dp"
+           android:layout_marginEnd="8dp"
+           android:layout_marginBottom="4dp"
+           android:text="Modifier son rapport"
+           android:textAlignment="center"
+           android:textColor="@color/black"
+           android:textSize="23sp"
+           />
+
+<!--       <TextView-->
+
+<!--           android:id="@+id/txtdate"-->
+<!--           android:layout_width="match_parent"-->
+<!--           android:layout_height="wrap_content"-->
+<!--           android:text="Choisir une date"-->
+<!--           android:textColor="@color/black"-->
+<!--           android:textSize="22sp" />-->
+
+<!--       <TextView-->
+<!--           android:id="@+id/date_rapport"-->
+<!--           android:layout_width="match_parent"-->
+<!--           android:layout_height="wrap_content"-->
+<!--           android:textSize="25sp"-->
+<!--           android:hint="jj/mm/aa" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/txtheure"-->
+<!--        android:background="@color/vertConnecter"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Choisir une heure"-->
+<!--        android:textColor="@color/black"-->
+<!--        android:layout_marginTop="50dp"-->
+<!--        android:textSize="22sp"/>-->
+
+
+<!--    <TextView-->
+<!--        android:id="@+id/heurerapport"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:textSize="25sp"-->
+<!--        android:hint="hh:mm"/>-->
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Veuillez moodifier votre rapport"
+        android:layout_marginTop="50dp"
+        android:textSize="22sp"
+        android:textColor="@color/black"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/rapportrdv"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:hint="Saisir le rapport du RDV">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/textrapport"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:gravity="top|left"
+            android:lines="7"
+            android:maxLines="8"
+            android:minLines="6"
+            android:scrollbars="vertical" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/btnenvoyerrapport"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Envoyer"/>
+
+</LinearLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/rti"
+        android:icon="@drawable/accueil"
+        android:title="@string/accueil"/>
+
+    <item android:id="@+id/menuProfile"
+        android:icon="@drawable/oop"
+        android:title="@string/profile"/>
+
+    <item android:id="@+id/menuprincipale"
+        android:icon="@drawable/bell"
+        android:title="@string/notification"/>
+
+
+    <item android:id="@+id/gestion_commercial"
+        android:icon="@drawable/teamwork"
+        android:title="@string/gestion_commercial"/>
+
+
+    <item
+        android:title="@string/rapport">
+        <menu>
+            <item
+                android:id="@+id/ecrire_rapport"
+                android:icon="@drawable/add"
+                android:title="Faire Son Rapport" />
+
+            <item
+                android:id="@+id/voir_rapport2"
+                android:icon="@drawable/search"
+                android:title="Voir Son Rapport" />
+
+            <item
+                android:id="@+id/vocal_rapport2"
+                android:icon="@drawable/audio"
+                android:title="Message Vocal" />
+
+            <item
+                android:id="@+id/voir_vocal_rapport"
+                android:icon="@drawable/mess"
+                android:title="Voir ses messages vocaux" />
+
+
+        </menu>
+
+    </item>
+
+    <item android:title="Facture">
+    <menu>
+        <item
+            android:id="@+id/profileFcaturePayee"
+            android:icon="@drawable/list"
+            android:title="Facture Payées"/>
+        <item
+            android:id="@+id/facture_impayee"
+            android:icon="@drawable/liste"
+            android:title="Facture Impayée"/>
+
+    </menu>
+
+    </item>
+</menu>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#F57C00</color>
+    <color name="purple_700">#F57C00</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="vertConnecter">#18EE27</color>a8531a
+    <color name="wave">#a8531a</color>f8b334
+    <color name="wave1">#f8b334</color>
+    <color name="lemon">#FFEDE4C2</color>
+    <color name="snak_color_wrong">#EB0E1D</color>
+    <color name="snak_color_success">#119311</color>
+    <color name="back_cardview">#f1f3ce</color>
+    <color name="backOrange">#C99E10</color>
+
+</resources>

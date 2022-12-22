@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".RTI"
+    android:id="@+id/containerView"
+    android:background="@drawable/tf1">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:background="@color/white"
+            app:cardCornerRadius="20dp"
+            android:padding="10dp">
+            <TextView
+                android:id="@+id/ac"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Accueil"
+                android:textSize="27sp"
+                android:textStyle="bold"
+                android:textColor="@color/purple_500"
+                android:layout_marginTop="13dp"/>
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/logo" />
+
+        </RelativeLayout>
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:columnOrderPreserved="false"
+            android:alignmentMode="alignMargins"
+            android:rowCount="1"
+            android:columnCount="2"
+            android:layout_marginTop="18sp">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                app:cardCornerRadius="12dp"
+                android:layout_rowWeight="1"
+                android:elevation="80dp"
+                android:layout_margin="12dp"
+                >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp"
+                    android:layout_gravity="center">
+                    <ImageView
+                        android:id="@+id/userimg"
+                        android:layout_width="60dp"
+                        android:layout_height="80dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/user"
+                        />
+
+                    <TextView
+                        android:id="@+id/profile"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="Mon profile"
+                        android:textColor="@color/black"
+                        android:textSize="15dp"/>
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                app:cardCornerRadius="12dp"
+                android:layout_rowWeight="1"
+                android:elevation="80dp"
+                android:layout_margin="12dp"
+                >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp"
+                    android:layout_gravity="center">
+                    <ImageView
+                        android:id="@+id/teamworkimg"
+                        android:layout_width="60dp"
+                        android:layout_height="80dp"
+                        android:clickable="true"
+                        android:layout_gravity="center"
+                        android:src="@drawable/teamworks"
+                        />
+
+                    <TextView
+                        android:id="@+id/commercial"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="Commerciaux"
+                        android:textColor="@color/black"
+                        android:textSize="15dp"/>
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                app:cardCornerRadius="12dp"
+                android:layout_rowWeight="1"
+                android:elevation="80dp"
+                android:layout_margin="12dp"
+                >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp"
+                    android:layout_gravity="center">
+                    <ImageView
+                        android:id="@+id/rapportimg"
+                        android:layout_width="60dp"
+                        android:layout_height="80dp"
+                        android:clickable="true"
+                        android:layout_gravity="center"
+                        android:src="@drawable/checklist"
+                        />
+
+                    <TextView
+                        android:id="@+id/rapport"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="Rapport"
+                        android:textColor="@color/black"
+                        android:textSize="15dp"/>
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                app:cardCornerRadius="12dp"
+                android:layout_rowWeight="1"
+                android:elevation="80dp"
+                android:layout_margin="12dp"
+                >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp"
+                    android:layout_gravity="center">
+                    <ImageView
+                        android:id="@+id/searchimg"
+                        android:layout_width="60dp"
+                        android:layout_height="80dp"
+                        android:clickable="true"
+                        android:layout_gravity="center"
+                        android:src="@drawable/searchs"
+                        />
+
+                    <TextView
+                        android:id="@+id/listerapport"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="Liste des rapports"
+                        android:textColor="@color/black"
+                        android:textSize="15dp"/>
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                app:cardCornerRadius="12dp"
+                android:layout_rowWeight="1"
+                android:elevation="80dp"
+                android:layout_margin="12dp"
+                >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp"
+                    android:layout_gravity="center">
+                    <ImageView
+                        android:id="@+id/audioimg"
+                        android:layout_width="60dp"
+                        android:layout_height="80dp"
+                        android:clickable="true"
+                        android:layout_gravity="center"
+                        android:src="@drawable/audios"
+                        />
+
+                    <TextView
+                        android:id="@+id/audio"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="Créer un vocal"
+                        android:textColor="@color/black"
+                        android:textSize="15dp"/>
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                app:cardCornerRadius="12dp"
+                android:layout_rowWeight="1"
+                android:elevation="80dp"
+                android:layout_margin="12dp"
+                >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp"
+                    android:layout_gravity="center">
+                    <ImageView
+                        android:id="@+id/vocalimg"
+                        android:layout_width="60dp"
+                        android:layout_height="80dp"
+                        android:clickable="true"
+                        android:layout_gravity="center"
+                        android:src="@drawable/voicemessage"
+                        />
+
+                    <TextView
+                        android:id="@+id/listevocal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="Rapports vocaux"
+                        android:textColor="@color/black"
+                        android:textSize="15dp"/>
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                app:cardCornerRadius="12dp"
+                android:layout_rowWeight="1"
+                android:elevation="80dp"
+                android:layout_margin="12dp"
+                >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp"
+                    android:layout_gravity="center">
+                    <ImageView
+                        android:id="@+id/facturepimg"
+                        android:layout_width="60dp"
+                        android:layout_height="80dp"
+                        android:clickable="true"
+                        android:layout_gravity="center"
+                        android:src="@drawable/file"
+                        />
+
+                    <TextView
+                        android:id="@+id/facturep"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="Facture Payée"
+                        android:textColor="@color/black"
+                        android:textSize="15dp"/>
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                app:cardCornerRadius="12dp"
+                android:layout_rowWeight="1"
+                android:elevation="80dp"
+                android:layout_margin="12dp"
+                >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp"
+                    android:layout_gravity="center">
+                    <ImageView
+                        android:id="@+id/factureipimg"
+                        android:layout_width="60dp"
+                        android:layout_height="80dp"
+                        android:clickable="true"
+                        android:layout_gravity="center"
+                        android:src="@drawable/fi"
+                        />
+
+                    <TextView
+                        android:id="@+id/factureip"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="Facture Impayée"
+                        android:textColor="@color/black"
+                        android:textSize="15dp"/>
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+
+
+        </GridLayout>
+
+    </LinearLayout>
+
+</ScrollView>

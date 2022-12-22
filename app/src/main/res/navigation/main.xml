@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    app:startDestination="@id/rti">
+    <fragment
+        android:id="@+id/menuProfile"
+        android:name="martioux.pro.grafco3.ProfileFragment"
+        android:label="Profil utilisateur"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/menuNotification"
+        android:name="martioux.pro.grafco3.NotificationFragment"
+        android:label="Liste des notifications"
+        tools:layout="@layout/fragment_notification" />
+    <fragment
+        android:id="@+id/gestion_commercial"
+        android:name="martioux.pro.grafco3.GestionCommercialFragment"
+        android:label="Liste des commerciaux"
+        tools:layout="@layout/fragment_gestion_commercial" />
+<!--    <fragment-->
+<!--        android:id="@+id/menuRapport"-->
+<!--        android:name="martioux.pro.grafco3.RapportFragment"-->
+<!--        android:label="fragment_rapport"-->
+<!--        tools:layout="@layout/fragment_rapport" />-->
+    <fragment
+        android:id="@+id/profileFcaturePayee"
+        android:name="martioux.pro.grafco3.FacturePayeeFragment"
+        android:label="Liste des factures payées"
+        tools:layout="@layout/fragment_facture_payee" />
+    <fragment
+        android:id="@+id/ecrire_rapport"
+        android:name="martioux.pro.grafco3.ecrire_rapport"
+        android:label="Faire son rapport"
+        tools:layout="@layout/fragment_ecrire_rapport" />
+    <fragment
+        android:id="@+id/voir_rapport2"
+        android:name="martioux.pro.grafco3.voir_rapport"
+        android:label="Liste des rapports"
+        tools:layout="@layout/fragment_voir_rapport" />
+    <fragment
+        android:id="@+id/vocal_rapport2"
+        android:name="martioux.pro.grafco3.vocal_rapport"
+        android:label="Faire un rapport vocal"
+        tools:layout="@layout/fragment_vocal_rapport" />
+    <fragment
+        android:id="@+id/voir_vocal_rapport"
+        android:name="martioux.pro.grafco3.voir_vocal_rapport"
+        android:label="Liste des messages vocaux"
+        tools:layout="@layout/fragment_voir_vocal_rapport" />
+    <!--<fragment
+        android:id="@+id/accueils"
+        android:name="martioux.pro.grafco3.Accueils"
+        android:label="Accueil"
+        tools:layout="@layout/fragment_accueils" />-->
+
+    <fragment
+        android:id="@+id/facture_impayee"
+        android:name="martioux.pro.grafco3.Facture_Imapyee"
+        android:label="Facture Impayée"
+        tools:layout="@layout/fragment_facture__imapyee"/>
+    <activity
+        android:id="@+id/menuprincipale"
+        android:name="martioux.pro.grafco3.MenuPrincipale"
+        android:label="Menus"
+        tools:layout="@layout/activity_menu_principale"
+        />
+    <fragment
+        android:id="@+id/rti"
+        android:name="martioux.pro.grafco3.RTI"
+        android:label="Menu"
+        tools:layout="@layout/fragment_r_t_i"
+        />
+
+
+</navigation>

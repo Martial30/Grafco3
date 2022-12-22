@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="180dp"
+    android:padding="20dp">
+
+        <com.makeramen.roundedimageview.RoundedImageView
+            android:id="@+id/imageProfile"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/image1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:riv_oval="true" />
+
+        <View
+            android:id="@+id/viewSuppoter"
+            android:layout_width="1dp"
+            android:layout_height="1dp"
+            app:layout_constraintBottom_toBottomOf="@+id/imageProfile"
+            app:layout_constraintEnd_toEndOf="@+id/imageProfile"
+            app:layout_constraintStart_toStartOf="@id/imageProfile"
+            app:layout_constraintTop_toTopOf="@+id/imageProfile" />
+
+
+        <TextView
+            android:id="@+id/nomEtPrenom"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="15dp"
+            android:text="Nom et Prénom"
+            android:textColor="@color/black"
+            android:textSize="10sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/imageProfile"
+            app:layout_constraintTop_toTopOf="@+id/imageProfile" />
+
+
+        <TextView
+            android:id="@+id/email"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="48dp"
+            android:text="Email"
+            android:textColor="#BE6A1B"
+            android:textSize="16sp"
+            app:layout_constraintStart_toEndOf="@+id/imageProfile"
+            app:layout_constraintTop_toTopOf="@+id/imageProfile" />
+
+        <TextView
+            android:id="@+id/deconnexion"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="100dp"
+            android:text="@string/se_d_connecter"
+            android:textColor="#EB1010"
+            android:textSize="16sp"
+            android:visibility="gone"
+            app:layout_constraintStart_toEndOf="@+id/imageProfile"
+            app:layout_constraintTop_toTopOf="@+id/imageProfile" />
+
+        <TextView
+            android:id="@+id/quitter"
+            android:layout_width="76dp"
+            android:layout_height="99dp"
+            android:layout_marginTop="8dp"
+            android:drawableEnd="@drawable/deconnexion"
+            android:text=" "
+            android:textColor="@color/snak_color_wrong"
+            android:textSize="20dp"
+            android:visibility="visible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.226"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/email"
+            app:layout_constraintVertical_bias="1.0" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

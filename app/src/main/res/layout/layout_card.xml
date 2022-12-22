@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:paddingTop="10dp"
+    android:padding="10dp"
+
+ >
+
+    <com.google.android.material.card.MaterialCardView
+        style="@style/backgroundorange"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="10dp"
+        android:background="@color/purple_500"
+        android:visibility="visible"
+        app:cardBackgroundColor="#F4ECD8"
+        app:cardCornerRadius="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <ImageView
+            android:id="@+id/modif"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginStart="280dp"
+            android:layout_marginTop="170dp"
+            android:src="@drawable/modifier"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_constraintRight_creator="3"
+            tools:layout_constraintTop_creator="1" />
+
+        <ImageView
+            android:id="@+id/supprim"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginStart="228dp"
+            android:layout_marginTop="170dp"
+            android:layout_marginBottom="10dp"
+            android:src="@drawable/corbeille"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_constraintRight_creator="3"
+            tools:layout_constraintTop_creator="1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="7dp"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/barlowcondensed"
+            android:text="N°"
+            android:textColor="#F25C00"
+            android:textSize="26dp" />
+
+        <TextView
+            android:id="@+id/idrapco"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="38dp"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/barlowcondensed"
+            android:text="1"
+            android:textColor="#F25C00"
+            android:textSize="26dp" />
+
+
+        <TextView
+            android:id="@+id/lastname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="160dp"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/barlowcondensed"
+            android:text="Martial"
+            android:textColor="#F25C00"
+            android:textSize="24dp"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/firtname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/barlowcondensed"
+            android:text="KOFFI"
+            android:textColor="#F25C00"
+            android:textSize="24dp"
+            android:visibility="visible" />
+
+
+        <TextView
+            android:id="@+id/daterap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="179dp"
+            android:fontFamily="@font/barlowcondensed"
+            android:text="15/12/2022"
+            android:textColor="#F25C00"
+            android:textSize="16dp" />
+
+
+
+
+        <!--<TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="145dp"
+            android:layout_marginTop="179dp"
+            android:fontFamily="@font/barlowcondensed"
+            android:text="à"
+            android:textColor="#F25C00"
+            android:textSize="16dp" />
+            <TextView
+            android:id="@+id/heurerap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="160dp"
+            android:layout_marginTop="179dp"
+            android:fontFamily="@font/barlowcondensed"
+            android:text=" 09:50"
+            android:textColor="#F25C00"
+            android:textSize="16dp"/>
+            -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="179dp"
+            android:fontFamily="@font/barlowcondensed"
+            android:text="Le"
+            android:textColor="#F25C00"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/rapport"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="6dp"
+            android:layout_marginTop="46dp"
+            android:fontFamily="@font/bahnschrift"
+            android:text=""
+            android:textColor="#655A3A"
+            android:textSize="20dp" />
+
+    </com.google.android.material.card.MaterialCardView>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ErrorPage"
+    android:padding="16dp"
+    android:transitionGroup="true"
+    android:orientation="vertical">
+
+  <!-- <TextView
+       android:id="@+id/textview"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Text to Speech"
+       android:textSize="28dp"
+       android:textColor="#000000"
+       android:gravity="center"
+       android:layout_alignParentTop="true"
+       android:layout_centerHorizontal="true"
+       android:layout_marginTop="20dp"/>
+
+   <EditText
+       android:id="@+id/userText"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_below="@+id/textview"
+       android:layout_marginTop="45dp"
+       android:hint="Enter your text"
+       android:layout_alignParentRight="true"
+       android:layout_alignParentEnd="true"
+       android:layout_alignParentLeft="true"
+       android:layout_alignParentStart="true" />
+
+   <Button
+       android:id="@+id/button"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_below="@+id/userText"
+       android:layout_centerHorizontal="true"
+       android:layout_marginTop="46dp"
+       android:background="@color/teal_200"
+       android:padding="16dp"
+       android:text="Text to Speech"
+       android:textColor="@color/white" />
+
+
+   <ImageView
+       android:id="@+id/imageMic"
+       android:layout_width="123dp"
+       android:layout_height="145dp"
+       android:layout_below="@id/textview"
+       android:layout_alignParentStart="true"
+       android:layout_alignParentEnd="true"
+       android:layout_alignParentBottom="true"
+       android:layout_marginStart="154dp"
+       android:layout_marginTop="294dp"
+       android:layout_marginEnd="150dp"
+       android:layout_marginBottom="163dp"
+       android:src="@drawable/audio" />-->
+
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:textSize="23dp"
+       android:textColor="#D32F2F"
+       android:text="Aucun Client n'est propre à ce client !"  />
+
+</RelativeLayout>

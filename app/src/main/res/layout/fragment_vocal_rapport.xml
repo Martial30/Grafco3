@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".vocal_rapport"
+    android:gravity="center"
+    android:padding="18dp"
+    android:orientation="vertical">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Faire son rapport vocal"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="#00796B"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="10dp"/>
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/message_vocal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/ecriture_auditoire"
+        android:layout_marginTop="100dp"
+        />
+    <!--
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/icon_vocal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:src="@drawable/ic_vocal_rapport"
+            android:backgroundTint="#F57C00"
+            android:layout_marginTop="200dp"
+
+            />-->
+
+
+    <ImageView
+        android:id="@+id/micro"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:src="@drawable/audios"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"/>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Appuyer sur l'icône pour faire votre vocal"
+        android:layout_marginTop="100dp"
+        android:textSize="17sp"
+        android:textColor="@color/black" />
+
+</LinearLayout>
+
+
+
+
+
+
+
